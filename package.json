@@ -1,0 +1,50 @@
+{
+  "name": "nude",
+  "version": "0.1.0",
+  "description": "Naked project directory",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "standard",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntassone/nude"
+  },
+  "author": {
+    "name": "Nick Tassone",
+    "email": "ntassone@gmail.com",
+    "url": "https://github.com/ntassone/nude"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntassone/nude/issues"
+  },
+  "homepage": "https://github.com/ntassone/nude",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-clean-dest": "^0.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2",
+    "node-sass": "^3.2.0"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules",
+      "dist"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1"
+  }
+}

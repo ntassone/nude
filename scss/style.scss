@@ -1,0 +1,28 @@
+@import "dependencies/dependencies";
+@import "variables";
+
+//Setup
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: $color-background;
+  font-family: $font;
+  font-size: $font-size;
+  font-weight: $font-regular;
+  color: $color-text;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+//Styles
