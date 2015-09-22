@@ -29,6 +29,7 @@
     "gulp": "^3.9.0",
     "gulp-clean-dest": "^0.1.0",
     "gulp-concat": "^2.6.0",
+    "gulp-develop-server": "^0.4.3",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
