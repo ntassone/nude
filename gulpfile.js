@@ -31,7 +31,7 @@ gulp.task('server:restart', function() {
 
 gulp.task('serve', ['styles', 'server:start'], function () {
   browserSync.init({
-    proxy: 'localhost:5000/',
+    proxy: 'localhost:8000/',
   })
 
   browserSync.watch(['./public/**', './views/**'], browserSync.reload)
