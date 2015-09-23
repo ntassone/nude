@@ -6,6 +6,7 @@ Naked project using:
 - Node
   - Express
   - Handlebars
+- Gulp
 - SCSS
   - Bourbon
   - Neat
