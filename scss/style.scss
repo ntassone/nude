@@ -28,7 +28,23 @@ img {
 //Styles
 
 body {
-  padding-top: 5em;
+  padding-top: 2em;
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
+}
+
+h1 {
+  margin-bottom: 0;
+  cursor: default;
+}
+
+a {
+  font-size: .4em;
+  color: fade-out(tomato, .8);
+  text-decoration: none;
+  @include transition(.5s);
+
+  &:hover {
+    color: fade-out(tomato, .5);
+  }
 }

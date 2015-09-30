@@ -20,7 +20,7 @@ body {
   font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #F6DFC1;
+  color: #FFEBD3;
 }
 
 * {
@@ -32,7 +32,25 @@ img {
 }
 
 body {
-  padding-top: 5em;
+  padding-top: 2em;
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
+}
+
+h1 {
+  margin-bottom: 0;
+  cursor: default;
+}
+
+a {
+  font-size: .4em;
+  color: rgba(255, 99, 71, 0.2);
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgba(255, 99, 71, 0.5);
 }
