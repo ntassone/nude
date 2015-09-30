@@ -1,0 +1,15 @@
+{
+  "name": "Nude",
+  "description": "Quick and easy blank app for front end endeavors",
+  "keywords": [
+    "node",
+    "bourbon",
+    "gulp",
+    "browsersync",
+    "heroku",
+    "neat",
+    "scss"
+  ],
+  "website": "https://nude.herokuapp.com/",
+  "repository": "https://github.com/ntassone/nude"
+}
